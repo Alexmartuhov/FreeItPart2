@@ -7,8 +7,24 @@
         <servlet-name>First Servlet</servlet-name>
         <servlet-class>servlets.MyFirstServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Third Servlet</servlet-name>
+        <servlet-class>servlets.MyThirdServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Four Servlet</servlet-name>
+        <servlet-class>servlets.MyFourServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>First Servlet</servlet-name>
         <url-pattern>/first</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Third Servlet</servlet-name>
+        <url-pattern>/third</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Four Servlet</servlet-name>
+        <url-pattern>/four</url-pattern>
     </servlet-mapping>
 </web-app>
