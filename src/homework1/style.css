@@ -1,0 +1,28 @@
+.main_div {
+    margin-top: 25px;
+    margin-left: 44%;
+}
+
+.main_input {
+    border-color: blue;
+    border: 2px solid;
+}
+
+#searchBookBtnId {
+    background-color: darkcyan;
+    color: #ffffff;
+}
+
+#searchBookBtnId:active{
+    background-color: darkblue;
+    color: #ffffff;
+}
+
+h1 {
+    color: darkslategrey;
+}
+
+.image{
+    width: 109px;
+    height: 140px;
+}
